@@ -1,0 +1,33 @@
+<!--	Author:
+	Date:
+	File:	gameIntro.txt
+	Purpose: Lab 01 assignment
+-->
+
+gameIntro.html algorithm:
+
+Prompt for characterName
+Get characterName
+Prompt for characterType
+Get characterType
+Prompt for experienceTokens
+Get experienceTokens
+Prompt for healthTokens
+Get healthTokens
+Prompt for supplyTokens
+Get supplyTokens
+Submit characterName, characterType, experienceTokens, healthTokens, supplyTokens to gameIntro.php
+END
+
+gameIntro.php algorithm:
+
+Receive characterName, characterType, experienceTokens, healthTokens, supplyTokens to gameIntro.html
+Set experienceTokenCost = 2
+Set healthTokensCost = 10
+Set supplyTokensCost = 25
+experiencePurchased=experienceTokens / experienceTokenCost
+healthPurchased=healthTokens / healthTokensCost
+supplyPurchased=supplyTokens / supplyTokensCost
+totalPurchase=experiencePurchased+healthPurchased+supplyPurchased
+Display characterName, characterType, experiencePurchased, healthPurchased, supplyPurchased, totalPurchase
+END
