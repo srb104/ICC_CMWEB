@@ -1,3 +1,10 @@
+<!--Author: Scott Borsch
+	Date:   8/9/15   
+	File:	lab2.php
+	Purpose:Chapter 5 Exercise
+
+-->
+
 <!DOCTYPE html>
 <html>
 <head>
