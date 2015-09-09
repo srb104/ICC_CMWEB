@@ -1,22 +1,24 @@
-body 	{ background: white; }
+html { 
+    background-color: blanchedalmond; 
+    font-family: Arial, Helvetica, Sans-serif;
+}
 
-h1   	{ font-family: Arial, Helvetica, Sans-serif; font-size:18pt;
-	  color:red; font-weight:bold; }
-
-h2   	{ font-family: Arial, Helvetica, Sans-serif; font-size:12pt;
-	  color:black; font-weight:bold; }
+h1, h2, h3, p { 
+    font-size:12pt;
+    color:darkslategrey; font-weight:bold; 
+}
        
-p	{ font-family: Arial, Helvetica, Sans-serif; font-size:10pt;
-	  color:black; }
+p	{ font-size:10pt;
+	  color:darkslategrey; }
 
 p.alert	{ font-style: italic; color:red;}
 
 table	{ font-family: Arial, Helvetica, Sans-serif; font-size:10pt;
-	  color:black; }
+	  color:darkslategrey; }
 
 select	{ font-family: Arial, Helvetica, Sans-serif; font-size:10pt;
-	  font-weight: bold; color:blue; background: lightBlue; }
+	  font-weight: bold; color:green; background-color: yellowgreen; }
 
 option	{ font-family: Arial, Helvetica, Sans-serif; font-size:10pt;
-	  color:black; background: silver; }
+	  color:darkslategrey; background: silver; }
 
