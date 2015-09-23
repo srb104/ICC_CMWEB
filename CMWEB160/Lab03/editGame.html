@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <!--	Author: Scott Borsch
+		Date:  9/16/15
+		File:	editGame.html
+		Purpose: Chapter 6 Exercise
+-->
+    <title>GAME CHARACTER</title>
+    <link rel="stylesheet" type="text/css" href="sample.css" />
+</head>
+
+<body>
+    <h1>GAME CHARACTER</h1>
+
+    <form action="editGame.php" method="post">
+        <table>
+            <tr>
+                <td>Enter your character's name:</td>
+                <td>
+                    <input type="text" size="20" name="charName" />
+                </td>
+            </tr>
+            </br>
+            <tr>
+                <td>Select your character's type:</td>
+                <td>
+                    <select name="charType">
+                        <option>dwarf</option>
+                        <option>elf</option>
+                        <option>human</option>
+                        <option>wizard</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="reset" value="CLEAR THE FORM" />
+                </td>
+                <td>
+                    <input type="submit" value="SUBMIT YOUR CHARACTER" />
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+
+</html>

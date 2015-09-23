@@ -1,0 +1,35 @@
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav ul li {
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+
+#nav ul li a {
+    display: block;
+    padding: .5em;
+    border: 1px solid #ba89a8;
+    border-radius: .5em;
+    margin: .25em;
+}
+
+#nav ul a:focus {
+    color: #fc6 border-color: #fff;
+}
+
+#nav ul a:hover {
+    color: #fc6;
+    border-color: #fff;
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 19.5em;
+}
