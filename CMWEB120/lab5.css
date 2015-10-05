@@ -1,0 +1,22 @@
+header{ 
+    display:block;
+    font-weight: bold;
+}
+article{
+    display:block;
+}
+section{
+    display:block;
+}
+footer {
+    display:block;    
+}
+nav {
+    display: block;   
+}
+ul {
+    list-style: none;
+}
+body {
+    font-family: arial;   
+}
